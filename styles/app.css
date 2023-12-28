@@ -707,6 +707,13 @@ body{
     background-color: rgba(141,141,141,.1);
     color: #8D8D8D;
     margin-top: 1.5rem;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.place__link:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 .destinations__btn{
     background-color: transparent;
@@ -715,7 +722,7 @@ body{
     -webkit-transition: all 250ms ease-in-out;
     -o-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 .destinations__btn:hover{
     color: var(--ap-bg);
