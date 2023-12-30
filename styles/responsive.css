@@ -63,7 +63,7 @@
 
 }
 @media (min-width: 992px) {
-    container{
+    .container{
         width: 96rem;
     }
     .newsletter__content {
